@@ -1,2 +1,2 @@
-# -Automate_Funny_Stuff
+# Automate_Funny_Stuff
 Make life funny, play with Python :D
