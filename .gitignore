@@ -130,7 +130,3 @@ dmypy.json
 
 # IDE
 .idea
-
-# temp files
-/images
-/processed_images
