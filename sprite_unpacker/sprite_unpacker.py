@@ -13,11 +13,11 @@ import os
               type=click.Path(exists=True, dir_okay=False, readable=True), )
 @click.option("--out", "-o", "output_dir", required=True, help="Folder to images to export.",
               type=click.Path(dir_okay=True))
-@click.option("--height", "-h", "height", type=click.INT,required=True, help="Image height to be processed.", )
-@click.option("--weight", "-w", "width", type=click.INT, required=True, help="Image width to be processed.", )
-@click.option("--padding", '-p', "padding", type=click.INT, required=True, help="Image padding to be processed.", )
-@click.option("--margin", "-m", "margin", type=click.INT, required=True, help="Image margin to be processed.", )
-@click.option("--name", '-n', "file_name_pattern", default="IMG(#).png", help="Image file name pattern to be saved, default=IMG(#).png, # will be replaced by image index.")
+@click.option("--height", "-h", "height", type=click.INT,required=True, help="Output image height.", )
+@click.option("--width", "-w", "width", type=click.INT, required=True, help="Output image width.", )
+@click.option("--padding", '-p', "padding", type=click.INT, default=0, help="Input image padding (space between output images), default is 0.", )
+@click.option("--margin", "-m", "margin", type=click.INT, default=0, help="Input image outer margin, default is 0.", )
+@click.option("--name", '-n', "file_name_pattern", default="IMG(#).png", help="Output image file name pattern to be saved, default=IMG(#).png, # will be replaced by image index.")
 def sprite_unpacker(input_file, output_dir, height, width, padding, margin, file_name_pattern):
     try:
         # Open image
