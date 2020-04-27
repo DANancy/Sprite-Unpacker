@@ -28,7 +28,7 @@ sprite-unpacker -i example/images/128280.png -o example/processed_images/ -h 255
 #### Input Image
 ![Image of Input Image](example/images/128280.png)
 
-#### Output Images
+#### Output Image
 ![Image of Output Image](example/processed_images/IMG(1).png)
 
 ### References
