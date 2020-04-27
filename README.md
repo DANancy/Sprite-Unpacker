@@ -26,10 +26,12 @@ Options:
 sprite-unpacker -i example/images/128280.png -o example/processed_images/ -h 255 -w 255 -p 5 -m 5 
 ```
 #### Input Image
-![Image of Input Image](example/images/128280.png)
+![Image of Input Image](example/images/sprite_sample.png)
 
 #### Output Images
-![Image of Output Image](example/processed_images/IMG(1).png)
+<img src="example/processed_images/IMG(1).png" width="128" height="128">
+<img src="example/processed_images/IMG(2).png" width="128" height="128">
+<img src="example/processed_images/IMG(3).png" width="128" height="128">
 
 ### References
 * [Create PyPi Package](https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56)
