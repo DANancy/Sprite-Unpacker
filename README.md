@@ -22,7 +22,7 @@ Options:
 ```
 ### Usage
 #### Using it
-```
+```shell script
 sprite-unpacker -i example/images/128280.png -o example/processed_images/ -h 255 -w 255 -p 5 -m 5 
 ```
 #### Input Image
